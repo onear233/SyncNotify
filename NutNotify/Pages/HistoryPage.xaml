@@ -26,56 +26,56 @@
                     <Border Margin="50,10,50,0" Style="{StaticResource ResourceKey=Style_SectionBorderStyle}">
                         <StackPanel>
                             <TextBlock
-            x:Name="notificationTextBlock"
-            Padding="10"
-            FontSize="60"
-            Text="还没有消息"
-            TextWrapping="Wrap" />
+                                x:Name="notificationTextBlock"
+                                Padding="10"
+                                FontSize="60"
+                                Text="还没有消息"
+                                TextWrapping="Wrap" />
                             <Border
-            Width="Auto"
-            Height="40"
-            Margin="0,0,5,5"
-            HorizontalAlignment="Right"
-            Background="#e1f5fe"
-            Style="{StaticResource ResourceKey=Style_SectionBorderStyle}">
+                                Width="Auto"
+                                Height="40"
+                                Margin="0,0,5,5"
+                                HorizontalAlignment="Right"
+                                Background="#e1f5fe"
+                                Style="{StaticResource ResourceKey=Style_SectionBorderStyle}">
                                 <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
                                     <StackPanel Orientation="Horizontal">
                                         <ui:FontIcon
-                        Margin="0,0,5,0"
-                        FontSize="15"
-                        Glyph="{x:Static ui:SegoeIcons.Send}" />
+                                            Margin="0,0,5,0"
+                                            FontSize="15"
+                                            Glyph="{x:Static ui:SegoeIcons.Send}" />
                                         <TextBlock FontSize="15" Text="发送时间：" />
                                         <TextBlock
-                        x:Name="Send_Time_TextBlock"
-                        Margin="0,0,15,0"
-                        FontSize="15"
-                        Text="" />
+                                            x:Name="Send_Time_TextBlock"
+                                            Margin="0,0,15,0"
+                                            FontSize="15"
+                                            Text="" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <ui:FontIcon
-                        Margin="0,0,5,0"
-                        FontSize="15"
-                        Glyph="{x:Static ui:SegoeIcons.ScreenTime}" />
+                                            Margin="0,0,5,0"
+                                            FontSize="15"
+                                            Glyph="{x:Static ui:SegoeIcons.ScreenTime}" />
                                         <TextBlock FontSize="15" Text="显示时间：" />
                                         <TextBlock
-                        x:Name="Display_Time_TextBlock"
-                        Margin="0,0,15,0"
-                        FontSize="15"
-                        Text="" />
+                                            x:Name="Display_Time_TextBlock"
+                                            Margin="0,0,15,0"
+                                            FontSize="15"
+                                            Text="" />
 
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <ui:FontIcon
-                        Margin="0,0,5,0"
-                        FontSize="15"
-                        Glyph="{x:Static ui:SegoeIcons.People}" />
+                                            Margin="0,0,5,0"
+                                            FontSize="15"
+                                            Glyph="{x:Static ui:SegoeIcons.People}" />
 
                                         <TextBlock FontSize="15" Text="来源：" />
                                         <TextBlock
-                        x:Name="Origin_TextBlock"
-                        Margin="0,0,15,0"
-                        FontSize="15"
-                        Text="" />
+                                            x:Name="Origin_TextBlock"
+                                            Margin="0,0,15,0"
+                                            FontSize="15"
+                                            Text="" />
                                     </StackPanel>
 
                                 </StackPanel>
@@ -83,7 +83,7 @@
                         </StackPanel>
                     </Border>
                 </StackPanel>
-                
+
             </StackPanel>
         </ScrollViewer>
     </Grid>

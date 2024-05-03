@@ -5,7 +5,7 @@ namespace SyncNotify.Pages.DiaglogPages
     /// <summary>
     /// HistoryPage.xaml 的交互逻辑
     /// </summary>
-    public partial class HistoryPage : Page
+    public partial class HistoryPage : iNKORE.UI.WPF.Modern.Controls.Page
     {
         //需要一个settings对象
         public static Settings settings = new Settings();

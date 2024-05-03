@@ -10,7 +10,7 @@
     d:DesignWidth="800"
     mc:Ignorable="d">
     <Grid>
-        <Border Margin="50,10,50,0" Style="{StaticResource ResourceKey=Style_SectionBorderStyle}">
+        <!--<Border Margin="50,10,50,0" Style="{StaticResource ResourceKey=Style_SectionBorderStyle}">
             <StackPanel>
 
                 <TextBlock
@@ -70,6 +70,6 @@
                 </Border>
             </StackPanel>
 
-        </Border>
+        </Border>-->
     </Grid>
 </UserControl>
